@@ -1,0 +1,6 @@
+# out folder
+out/
+
+# builds
+*.hl
+*.js

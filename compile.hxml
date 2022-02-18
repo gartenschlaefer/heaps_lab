@@ -1,0 +1,29 @@
+# --
+# compile file
+
+# source folder
+-cp src
+
+# libraries
+-lib heaps
+
+# lib for sdl (use when build for hl or c)
+-lib hlsdl
+
+# javascript code
+#-js hello_world.js
+
+# haslink code
+-hl hello_world.hl
+
+# c code
+#-hl out/main.c
+
+# entry point
+-main Main
+
+# debug flag
+#-debug
+
+# window size
+#-D windowSize=1366x768
